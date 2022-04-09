@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.main-header {
+    background-color: #6B1C23;
+    padding: 1.2rem 2rem;
+    width: 100%;
+    top: 0;
+}
+
+.main-header_logo {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 24rem);
+}
+
+.main-nav__items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+div img{
+    width:100%
+    ;
+}
+
+footer {
+    background-color: #6B1C23;
+}
+
+footer div {
+    padding: 20px;
+}
+
+.bir {
+    text-decoration: underline;
+    font-size: 15px;
+    color: #66CCEB;
+    text-align: center;
+}
+
+.iki {
+    text-align: center;
+    font-size: 18px;
+    color: #66CCEB;
+}
+
+.explanation h1 {
+    text-align: center;
+    color:#6B1C23;
+}
+
+.explanation p {
+    font-size: 16px;
+}
+
+.col-4 {
+    display: inline-block;
+    width: 24.6%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.claret {
+    color : #6B1C23
+}
+
+.blue {
+  color:  #66CCEB ;
+}
+
+.team-list {
+    display: inline-block;
+    text-align: center;
+}
+
+.first11 {
+    text-align: center;
+
+}
+
+.first11_val {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+
+.signup-page {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.signup-title {
+    text-align: center;
+    font-size: 30px;
+    color: #6B1C23;
+}
+
+.signup-form {
+    width: 800px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.signup-form label,
+.signup-form input:not([type="checkbox"]) /*signup-form classı altındaki input etiketilerinden type'ı checkbox olmayanlara etki edecek css özelliklerinin yazılması için kullanılır */ {
+    display: block;
+    width: 400px;
+    height: 50px;
+    margin-top: 10px;
+}
+.signup-form #message {
+    width: 100%;
+}
+
+::placeholder { 
+    color: #66CCEB;
+    opacity: 1;
+    text-align: center;
+    font-size: 20px;
+}
+
+.signup-form input[type="checkbox"],
+.signup-form input[type="checkbox"] + label {
+    display: inline-block;
+    width: auto;
+}
